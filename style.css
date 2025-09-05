@@ -5,6 +5,14 @@
     color: #f2f2f2;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+.header a{
+    text-decoration: none;
+}
+
 .nav-list{
     list-style-type: none;
     display: flex;
@@ -27,6 +35,10 @@
     background-color: #8C111B;
     text-align: center;
     line-height: 3rem ;
+}
+
+.topic:hover{
+    cursor: pointer;
 }
 
 .my-background{

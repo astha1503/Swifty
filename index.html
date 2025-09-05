@@ -13,17 +13,17 @@
 <body>
     <!-- nav-bar of this web page  -->
     <header class = "header">
-        <div class="nav-bar">
+        <nav class="nav-bar">
             <ul class = "nav-list">
-                <li class = "topic">Biography</li>
-                <li class = "topic middle">Tribute page</li>
-                <li class = "topic">Discography</li>
+                <li class = "topic"><a href="#section2">Biography</a></li>
+                <li class = "topic middle"><a href="#section1">Tribute page</a></li>
+                <li class = "topic"><a href="#section3">Discography</a></li>
             </ul>
-        </div>
+        </nav>
     </header>
 
     <!-- body of this web page  -->
-    <div class="my-background">
+    <div class="my-background" id="section1">
         <div class="para">
             <h1 class="name">Taylor Swift</h1>
             <p class="desc">" It's me, hi, I'm the problem, it's me."</p>
@@ -31,7 +31,7 @@
     </div>
 
     <!-- This is an biography of taylor swift -->
-     <div class="bio">
+     <div class="bio" id="section2">
         <!-- Add paragrapha here  -->
         <div class="bio-para">
             <h1 id="bio-heading">Biography</h1>
@@ -56,7 +56,7 @@
      </div>
 
     <!-- This is discography -->
-     <div class="discography">
+     <div class="discography" id="section3">
         <h1 id="discography-heading">Discography</h1>
         <div class="disco-main-box">
             <div class="disco-box1 discography-box" id="Reputation-2017">
@@ -200,5 +200,7 @@
             <p class="copy-right">&copy;2025 .Tribute page</p>
         </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>

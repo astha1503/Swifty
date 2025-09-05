@@ -9,8 +9,8 @@ html {
   scroll-behavior: smooth;
 }
 
-.header a{
-    text-decoration: none;
+.header .nav-bar a {
+  text-decoration: none !important;
 }
 
 .nav-list{
